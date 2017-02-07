@@ -1,0 +1,312 @@
+.home {
+
+  scroll-content{
+    //background-color: #8c8c8c;
+    //overflow: hidden;
+  }
+
+  #gainz_text_logo{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 100%;
+  }
+
+  #text_logo{
+    position: relative;
+  }
+
+  .next-button{
+    position: absolute;
+    top: 73%;
+    width: 35%;
+    left: 32%;
+    z-index: 100;
+    background-color: #2BB673;
+    font-weight: bolder;
+  }
+
+  #refreshButton{
+    z-index: 10;
+    background-color: #38B1B3;
+  }
+
+  #DisplayDataButton{
+    z-index: 9;
+    background-color: red;
+  }
+
+
+  #testButton{
+    top: 6%;
+  }
+
+  #mascot{
+    position: absolute;
+    top: 15%;
+    transform: scale(0.7);
+  }
+
+  #main-logo{
+    position: absolute;
+    left: 29%;
+    z-index: 1;
+  }
+
+
+  #title-name{
+    font-family: 'Chewy', cursive !important;
+    /* text-align: center; */
+    z-index: 2;
+    font-weight: bolder;
+    font-size: 9rem;
+    background:transparent;
+    text-shadow: -4px 4px #FFF, 4px 4px #FFF, -4px -4px #FFF, 4px -4px #FFF;
+    letter-spacing: 10px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    left: 3%;
+    top: 32%;
+    -webkit-transform: scale(0.7);
+    transform: scale(.7);
+  }
+
+  .two-letter-logo{
+    background:transparent;
+    color: #CA3433;
+  }
+
+  .bottom-container{
+    //position: absolute;
+    display: none;
+  }
+
+  .middle-bottom-circle{
+    height: 20px;
+    border: 2px solid #FFF;
+    border-radius: 100%;
+    width: 20px;
+    margin: auto;
+    margin-top: 13px;
+    left: 48%;
+    bottom: -555px;
+    position: absolute;
+  }
+
+  .middle-top-circle{
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    border: 4px solid #FFF;
+    margin: auto;
+    position: absolute;
+    bottom: -523px;
+    left: 40%;
+  }
+
+  #message-button{
+    top: 91%;
+    position: absolute;
+    transform: scale(0.7);
+    left: 3%;
+  }
+
+  #circle-button{
+    top: 90%;
+    position: absolute;
+    transform: scale(0.7);
+    right: 3%;
+  }
+
+  #emptyBottle{
+    position: absolute;
+    top: 22%;
+    left: 18%;
+    display: none;
+  }
+
+
+  //BRACKETS    BRACKETS    BRACKETS    BRACKETS    BRACKETS    BRACKETS    BRACKETS
+  .bracket_containers{
+    position: relative;
+    top: 7%;
+    left: 8%;
+    display: none;
+  }
+
+  .left_brackets{
+    position: absolute;
+    left: -7%;
+  }
+
+  .right_brackets{
+    position: absolute;
+    left: 79%;
+  }
+
+
+  #plusOne{
+    position: absolute;
+    top: 80%;
+    left: 80%;
+  }
+
+  #minusOne{
+    position: absolute;
+    top: 90%;
+    left: 80%;
+  }
+
+  #fixupbox{
+    position: absolute;
+    top: 70%;
+    left: 80%;
+  }
+
+
+  #blinker{
+    height: 100%;
+    position: absolute;
+    width: 1000%;
+    background-color: blue;
+    opacity: 0;
+  }
+
+  #fakeContainer{
+    display: none;
+  }
+
+  #dark-container{
+    display: none;
+    opacity: 0.5;
+    position: absolute;
+    height: 665px;
+    width: 100%;
+    background-color: #363838;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+  }
+
+
+  #empty_bottle{
+    position: absolute;
+    top: 125%;
+    left: 25%;
+    transform: scale(1.8);
+  }
+
+
+
+
+
+
+  //PRESCRIPTION
+  .prescription-container{
+
+  }
+
+  #PatientName{
+    position: absolute;
+    top: 45%;
+    z-index: 1;
+    left: 27%;
+    display: none;
+  }
+
+  #Prescription{
+    position: absolute;
+    top: 53%;
+    z-index: 1;
+    left: 27%;
+    display: none;
+  }
+
+  #Directions{
+    position: absolute;
+    top: 61%;
+    z-index: 1;
+    left: 26%;
+    width: 56%;
+    font-size: 17px;
+    display: none;
+  }
+
+  #Quantity{
+    position: absolute;
+    top: 67%;
+    z-index: 1;
+    left: 35%;
+    width: 56%;
+    font-size: 17px;
+    display: none;
+  }
+
+  #StorePhone{
+    position: absolute;
+    top: 69.5%;
+    z-index: 1;
+    left: 49%;
+    width: 56%;
+    font-size: 18px;
+    display: none;
+  }
+
+  #StoreID{
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    left: 69%;
+    width: 56%;
+    font-size: 21px;
+    display: none;
+  }
+
+  #RX{
+    position: absolute;
+    top: 73%;
+    z-index: 1;
+    left: 39%;
+    width: 56%;
+    font-size: 17px;
+    display: none;
+  }
+
+  #Prescriber{
+    position: absolute;
+    top: 76.5%;
+    z-index: 1;
+    left: 40%;
+    width: 56%;
+    font-size: 17px;
+    display: none;
+  }
+
+  #LanguagePicker{
+    z-index: 10;
+    background-color: #363838;
+    display: none;
+  }
+
+  [fab-bottom]{
+    border: 3px solid #fff;
+  }
+
+  .languageContainer{
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 50%;
+    left: -56%;
+    margin-top: -10rem;
+  }
+
+  .box1{
+    border-bottom: 1px solid #8C8C8C;
+    text-align: center;
+    height: 11%;
+    color: #FFF;
+    font-size: 35px;
+  }
+
+}

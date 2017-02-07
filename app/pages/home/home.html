@@ -1,0 +1,81 @@
+<ion-content class="home">
+
+  <div id="pill_container">
+    <div id="dark-container"></div>
+    <!--PRESCRIPTION CONTAINER-->
+    <div class="prescription-container">
+      <h3 id="PatientName" ion-button tappable (click)="tagClicked('patient_name')">Victor Le</h3>
+      <h3 id="Prescription" ion-button tappable (click)="tagClicked('prescription')">Warfarin Sodium</h3>
+      <h3 id="Directions" ion-button tappable (click)="tagClicked('directions')">Take 1 Tablet Every Day</h3>
+      <h3 id="Quantity" ion-button tappable (click)="tagClicked('quantity')">60</h3>
+      <h3 id="StorePhone" ion-button tappable (click)="tagClicked('storephone')">908930982</h3>
+      <h3 id="StoreID" ion-button tappable (click)="tagClicked('storeid')">0300</h3>
+      <h3 id="RX" ion-button tappable (click)="tagClicked('rx')">#830049</h3>
+      <h3 id="Prescriber" ion-button tappable (click)="tagClicked('prescriber')">#830049</h3>
+    </div>
+    <!--<img id="empty_bottle" src="img/empty_bottle.png">-->
+    <img id="empty_bottle" src="img/finished_empty_prescription2.png">
+  </div>
+  <!--BLINKER PAGE-->
+  <div id="blinker">
+
+  </div>
+
+  <!--LOGO HOME CONTAINER-->
+  <div class="logo-home-container">
+    <!--TEST MAIN TEXT LOGO-->
+    <img id="text_logo" src="img/wordlogo.png">
+    <!--Home Page Next BUtton-->
+  </div>
+    <button class="next-button" tappable light (click)="HomeNextButtonClicked()" color="danger" large>Next</button>
+
+  <!--ANimated Dinosaur-->
+  <img id="mascot" src="img/mascot.png">
+  <!--<dino-image></dino-image>-->
+
+  <!--MEDICINE-->
+  <img id="emptyBottle" src="img/empty_bottle.png">
+
+  <!--BRACKETS-->
+  <div class="bracket_containers">
+    <img class="left_brackets" src="img/left_bracket.png">
+    <img class="right_brackets" src="img/right_bracket.png">
+  </div>
+
+  <!--Refresh Button-->
+  <button id="refreshButton" style="font-size: 30px" tappable (click)="refresh()" color="danger" light fab small fab-right fab-bottom><ion-icon name="refresh"></ion-icon></button>
+  <!--<button id="DisplayDataButton" style="font-size: 30px" tappable (click)="DisplayJsonData()" color="danger" light fab small fab-right fab-bottom><ion-icon name="refresh"></ion-icon></button>-->
+  <button id="LanguagePicker" style="font-size: 30px" tappable (click)="OpenMenu()" color="danger" light fab small fab-center fab-bottom><ion-icon name="menu"></ion-icon></button>
+  <!--Extra Button (Top Left)-->
+  <!--<button id="testButton" style="z-index:100" tappable light fab small fab-left fab-top (click)="TestButton()"><ion-icon name="exit"></ion-icon></button>-->
+
+  <div class="bottom-container">
+    <img id="fakeContainer" src="https://firebasestorage.googleapis.com/v0/b/foodai-b24f3.appspot.com/o/multiplefiles%2FcheckerTest.jpg?alt=media&token=e5a7b917-2445-4231-b29e-46866fac9f4b">
+    <div class="middle-top-circle" ion-button tappable (click)="TakeSnapShot()"></div>
+    <div class="middle-bottom-circle" ion-button tappable (click)="PopUpMedicine()"></div>
+  </div>
+
+    <!--<img (click)="DisplayFakeContainer()" id="message-button" src="img/message.png">-->
+    <!--<img id="circle-button" (click)="TestFirebase()" src="img/circles.png">-->
+
+  <div class="languageContainer">
+    <div class="box1" ion-button tappable (click)="LanguageSwitch('es')">Spanish</div>
+    <div class="box1" ion-button tappable (click)="LanguageSwitch('ko')">Korean</div>
+    <div class="box1" ion-button tappable (click)="LanguageSwitch('ja')">Japanese</div>
+    <div class="box1" ion-button tappable (click)="LanguageSwitch('el')">Greek</div>
+    <div class="box1" ion-button tappable (click)="LanguageSwitch('fr')">French</div>
+  </div>
+
+
+  <!--<button id="plusOne" style="z-index:100" tappable light fab small fab-left fab-top (click)="getData()"><ion-icon name="add"></ion-icon></button>-->
+  <!--<button id="minusOne" style="z-index:100" tappable light fab small fab-left fab-top (click)="sendOff()"><ion-icon name="close"></ion-icon></button>-->
+  <!--<button id="fixupbox" style="z-index:100" tappable light fab small fab-left fab-top (click)="fixedUpBox()"><ion-icon name="trash"></ion-icon></button>-->
+
+
+
+
+
+
+
+
+</ion-content>
